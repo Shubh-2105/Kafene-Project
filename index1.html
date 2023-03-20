@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assessment App</title>
+    <link rel="stylesheet" href="./index1.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index1.js"></script>
+  </head>
+  <body>
+    <div class="top-bar">
+      <div class="topbar-left-menu-button">
+        <div class="topbar-logo">
+          <img
+            src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png"
+            alt="Logo"
+          />
+          <p class="topbar-text">Kafene</p>
+        </div>
+        <nav>
+          <a class="items-of-topbar-menu" href="./orders1.html">Orders</a>
+          <a class="items-of-topbar-menu" href="./products1.html">Products</a>
+          <a class="items-of-topbar-menu" href="./users1.html">Users</a>
+        </nav>
+      </div>
+      <a
+        style="display: none"
+        class="items-of-topbar-menu"
+        id="logout-button"
+        href=""
+        >Logout</a
+      >
+    </div>
+    <div id="loginform-wrapper">
+      <form class="Login-Page" id="loginform">
+        <h1>Sign In</h1>
+        <input
+          class="Login-Page-Input-Area"
+          type="text"
+          name="username"
+          placeholder="Enter Username"
+        />
+        <input
+          class="Login-Page-Input-Area"
+          type="password"
+          name="password"
+          placeholder="Enter Password"
+        />
+        <input class="LoginPage_Button" type="submit" value="Login" />
+      </form>
+    </div>
+  </body>
+</html>
